@@ -1,0 +1,7 @@
+To utilise the project open and run bias_gui.py
+
+To train a model select upload CSV and select the provided training data (political_opinion_urls.csv)
+
+To load the model load a fully trained model (bias_regression_model.joblib)
+
+specific parts of the pipeline can be viewed and tested through each individual .py file; scraper.py, train_regression_model.py and predict_url.py however all are imported within bias_gui.py and have their code directly utilised by it.
